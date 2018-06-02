@@ -6,18 +6,12 @@ package com.example.duhongwang20180601.bean;
  */
 
 public class VpBean {
-    private String img;
     private String desc;
 
-    public VpBean(String img, String desc) {
-        this.img = img;
+    public VpBean(String desc) {
         this.desc = desc;
     }
 
-
-    public VpBean() {
-        super();
-    }
 
     public String getDesc() {
         return desc;
@@ -30,20 +24,7 @@ public class VpBean {
     @Override
     public String toString() {
         return "VpBean{" +
-                "img='" + img + '\'' +
-                ", desc='" + desc + '\'' +
+                "desc='" + desc + '\'' +
                 '}';
-    }
-
-    public String getImg() {
-        return img;
-    }
-
-    public void setImg(String img) {
-        this.img = img;
-    }
-
-    public VpBean(String img) {
-        this.img = img;
     }
 }

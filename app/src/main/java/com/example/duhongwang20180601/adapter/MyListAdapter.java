@@ -60,7 +60,6 @@ public class MyListAdapter extends RecyclerView.Adapter<MyListAdapter.MyListView
                     stringArrayList02.add(list.get(position).getSteps().get(i).getStep());
                 }
 
-                stringArrayList02.add(list.get(position).getSteps().get(position).getStep());
                 Intent intent = new Intent(context, XiangQingActivity.class);
                 intent.putExtra("title",list.get(position).getTitle());       //title
                 intent.putStringArrayListExtra("img",stringArrayList01);      //img

@@ -6,7 +6,7 @@ import org.greenrobot.greendao.annotation.Generated;
 
 /**
  * Created   by   Dewey .
- * 搜索框输入数据封装为 DreenDao bean 类
+ * 搜索框输入数据封装为 GreenDao  bean 类
  */
 @Entity
 public class SearchDaoBean {
